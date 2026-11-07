@@ -1,49 +1,40 @@
 # 🖥️ Practical Case Study: PC Assembly, Disassembly & Hardware Troubleshooting
 
-![Course](https://img.shields.io/badge/Course-SECP1513_TIS-00FF66?style=for-the-badge&logo=github&logoColor=black)
-![Institution](https://img.shields.io/badge/UTM-Faculty_of_Computing-00FF66?style=for-the-badge&logo=university&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Completed-00FF66?style=for-the-badge)
+<p align="left">
+  <img src="https://img.shields.io/badge/Course-SECP1513_TIS-00FF66?style=for-the-badge&logo=github&logoColor=black" alt="Course" />
+  <img src="https://img.shields.io/badge/UTM-Faculty_of_Computing-00FF66?style=for-the-badge&logo=university&logoColor=black" alt="UTM" />
+  <img src="https://img.shields.io/badge/Status-Completed-00FF66?style=for-the-badge" alt="Status" />
+</p>
 
 A practical hands-on documentation and e-Portfolio case study on personal computer assembly, component identification, and hardware troubleshooting conducted during the SECP1513 TIS Lab session at Universiti Teknologi Malaysia (UTM).
 
 ---
 
-### 📋 Overview & Disassembly Steps
+## 👥 1. Team & Collaboration (Group Photo)
 
-Under the guidance of our Lab Assistant, our team (Group of 6) performed a step-by-step disassembly and reassembly process of standard desktop computers:
+Under the guidance of our assigned Lab Assistant, our group of 6 collaborated to execute the full hardware assembly, disassembly, and troubleshooting validation.
 
-1. **Side Cover Removal**: Accessing the chassis interior safely.
-2. **Power Disconnection**: Unplugging all PSU power connectors (24-pin mainboard, CPU power, SATA).
-3. **PSU Unmounting**: Removing the Power Supply Unit (PSU).
-4. **Storage Unit Removal**: Disconnecting and removing Hard Disk Drives (HDD) / Solid State Drives (SSD).
-5. **RAM Module Extraction**: Removing Random Access Memory (RAM) sticks from DIMM slots.
-6. **CPU Cooler Disassembly**: Safely unmounting the CPU heatsink/fan assembly.
-
-*The reassembly followed the exact reverse sequence before final hardware validation.*
+<p align="left">
+  <img src="./assets/photo_2026-11-07 17.10.52.jpeg" alt="Group Photo" width="600" />
+</p>
 
 ---
 
-### 🔍 Real-World Hardware Troubleshooting (Case Study)
+## 🛠️ 2. Step-by-Step Disassembly & Component Identification
 
-#### Issue Encountered:
-During the initial boot-up validation (connecting power and monitor), the computer failed to display output (No POST / Blank Screen).
+The lab session was executed in a strict, structured sequence:
 
-#### Root Cause Analysis:
-After systematic isolation, the issue was identified in the **RAM modules**. During manual disassembly, a group member accidentally touched the gold contacts (pins) of the RAM module with bare hands. Fingerprint oils and moisture created a micro-insulation layer, leading to poor pin contact with the DIMM slot.
-
-#### Resolution:
-Replaced the contaminated RAM module with a clean module (or cleaned contacts thoroughly) and reseated it firmly into the slot. The system subsequently successfully powered on and booted to screen.
-
----
-
-### 💡 Personal Reflection
-> *"Hardware failure analysis is a critical foundational skill in computer infrastructure—minor physical contact issues can prevent complex systems from functioning."*
-
-As a Year 1 Computer Network & Security student at UTM, this lab session reinforced that hardware maintenance requires strict adherence to operating procedures (ESD safety, handling components by edges). Solving the boot failure by isolating RAM pin contamination gave me practical insights into physical layer diagnostics that software engineers often overlook.
+| Step | Action & Description | Photo Evidence |
+| :---: | :--- | :---: |
+| **Step 1** | **Side Cover Removal**<br>Safely unscrewing and removing the chassis side panel to access internal components. | <img src="./assets/photo_2026-11-07 17.09.36.jpeg" width="200" /><br><br><img src="./assets/photo_2026-11-07 17.09.39.jpeg" width="200" /> |
+| **Step 2** | **Cable Disconnection**<br>Unplugging all power connectors (24-pin mainboard, CPU power, and SATA cables). | <img src="./assets/photo_2026-11-07 17.09.44.jpeg" width="200" /> |
+| **Step 3** | **PSU Removal**<br>Unmounting the Power Supply Unit (PSU) responsible for AC to DC power conversion. | <img src="./assets/photo_2026-11-07 17.09.58.jpeg" width="200" /> |
+| **Step 4** | **Storage Drive Removal**<br>Disconnecting and removing the Hard Disk Drive (HDD) / Solid State Drive (SSD). | <img src="./assets/photo_2026-11-07 17.10.09.jpeg" width="200" /><br><br><img src="./assets/photo_2026-11-07 17.10.15.jpeg" width="200" /> |
+| **Step 5** | **RAM Module Extraction**<br>Releasing DIMM slot latches and pulling out the RAM stick carefully by its edges. | <img src="./assets/photo_2026-11-07 17.10.04.jpeg" width="200" /> |
+| **Step 6** | **CPU Fan & Cooler Removal**<br>Unmounting the CPU heatsink/fan assembly safely without damaging thermal pins. | <img src="./assets/photo_2026-11-07 17.10.01.jpeg" width="200" /> |
 
 ---
 
-👥 **Team Collaboration**:
-- **Participant**: TEY HAO RUI (Matric: A26CS038)
-- **Course**: SECP1513 Technology and Information System (TIS)
-- **Institution**: Universiti Teknologi Malaysia (UTM)
+## 🔍 3. Hardware Troubleshooting Case Study
+
+During initial system re
